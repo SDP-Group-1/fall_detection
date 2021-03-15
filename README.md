@@ -5,4 +5,4 @@ The model generator
 ## Description
  - [feature_extraction]: Give set of features extracted from the MobiAct Dataset.
  - [model_selection]: Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with tuned parameters.
- - [real_mode]: Train the model that is going to be integrated with the oli App.
+ - [real_model]: Train the model that is going to be integrated with the oli App.
