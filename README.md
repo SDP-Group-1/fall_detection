@@ -64,8 +64,15 @@ The frame of this program allows to do trials on more classifiers with different
 
 [model_export](https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it as a pickle file.
 
+## Dependency
+```sh
+python=3.8.0
+scikit-learn=0.24.1
+numpy=1.19.2
+pandas=1.2.2
+```
 
-## Dependencies
+## Reference
 
 [1] Casilari, E., Santoyo-Ramón, J., &amp; Cano-García, J. (2017). Analysis of public datasets for wearable fall detection systems. Sensors, 17(7), 1513. doi:10.3390/s17071513
 
