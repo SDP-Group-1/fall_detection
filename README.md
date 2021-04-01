@@ -23,7 +23,10 @@ The current version takes 19 features into consideration, the table below includ
 | std_gz	| Standard deviation of z-axis angular velocity |
 
 The other 7 features are respectively mean_smv, std_smv, std_mless, max_smv, min_smv, slope, duration.
-<img src="https://latex.codecogs.com/gif.latex?SMV&space;=&space;\sqrt{A_{x}^2&space;&plus;&space;A_{y}^2&space;&plus;&space;A_{z}^2}" title="SMV = \sqrt{A_{x}^2 + A_{y}^2 + A_{z}^2}" />
+
+ <img src="https://latex.codecogs.com/gif.latex?SMV&space;=&space;\sqrt{a_{x}^2&space;&plus;&space;a_{y}^2&space;&plus;&space;a_{z}^2}" title="SMV = \sqrt{a_{x}^2 + a_{y}^2 + a_{z}^2}" />
+
+The signal magnitude vector (smv for short) is calculated by the formula above, which is actually the norm of the composition of 3-axis acceleration.
 
 [model_selection](https://github.com/SDP-Group-1/fall_detection/blob/main/model_selection.ipynb): Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with different combinations of hyperparameters.
 
