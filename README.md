@@ -31,7 +31,7 @@ The other 7 features are respectively **mean_smv**, **std_smv**, **std_mless**, 
 The Signal Magnitude Vector (SMV for short) is calculated by the formula above, which is actually the norm of the composition of 3-axes acceleration.
 
 <p align="center">
- <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/3-axes.png."
+ <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/3-axes.png"
 </p>
 
 We segmented the readings' record into 5s window, the figure below is the smv curve of the window in which a typical fall event happened. From the figure, we can see for a typical fall event there would be a peak form curve of the SMV, and after the peak the man/woman who has just experienced a fall would lie on the ground naturally and stay motionless.
