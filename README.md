@@ -52,7 +52,7 @@ We segmented the readings' record into 5s window, the figure below is the smv cu
 
 [model_selection](https://github.com/SDP-Group-1/fall_detection/blob/main/model_selection.ipynb): Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with different combinations of hyperparameters.
 
-The exact 
+The frame of this program allows to do trials on more classifiers with different settings.
 
 [model_export](https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it as a pickle file.
 
