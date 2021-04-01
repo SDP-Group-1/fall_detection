@@ -20,5 +20,5 @@ The current version takes 19 features into consideration, the table below includ
 | std_gy	| Standard deviation of y-axis angular velocity |
 | std_gz	| Standard deviation of z-axis angular velocity |
 - [model_selection](https://github.com/SDP-Group-1/fall_detection/blob/main/model_selection.ipynb): Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with different combinations of hyperparameters.
-- [model_export]((https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it.
+- [model_export](https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it.
 ## Dependencies
