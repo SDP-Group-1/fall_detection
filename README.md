@@ -4,7 +4,7 @@ The model generator
  - [MobiAct](https://bmi.hmu.gr/the-mobifall-and-mobiact-datasets-2/) - this model uses the 2nd Release of MobiAct dataset 
 ## Description
  ### [feature_extraction]: Give set of features extracted from the MobiAct Dataset.
- - The current version takes 19 features into consideration, the table below includes 12 features which are simple statistics on the raw sensor readings:
+  The current version takes 19 features into consideration, the table below includes 12 features which are simple statistics on the raw sensor readings:
         <table>
    <tr>
       <td>Name</td>
