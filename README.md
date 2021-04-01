@@ -28,7 +28,7 @@ The other 7 features are respectively mean_smv, std_smv, std_mless, max_smv, min
 
 The signal magnitude vector (smv for short) is calculated by the formula above, which is actually the norm of the composition of 3-axis acceleration.
 
-![image]( https://raw.githubusercontent.com/image/3-axis.png)
+![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/3-axis.png)
 
 [model_selection](https://github.com/SDP-Group-1/fall_detection/blob/main/model_selection.ipynb): Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with different combinations of hyperparameters.
 
