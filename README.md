@@ -32,7 +32,7 @@ The Signal Magnitude Vector (SMV for short) is calculated by the formula above, 
 
 We segmented the readings' record into 5s window, the figure below is the smv curve of the window in which a typical fall event happened. From the figure, we can see for a typical fall event there would be a peak form curve of the SMV, and after the peak the man/woman who has just experienced a fall would lie on the ground naturally and stay motionless.
 
-![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/fall_events.png)
+![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/fall_event.png)
 
 **mean_smv** is the mean value of SMVs during the window period.
 
