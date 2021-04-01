@@ -71,6 +71,7 @@ python=3.8.0
 scikit-learn=0.24.1
 numpy=1.19.2
 pandas=1.2.2
+jupyter=1.0.0
 ```
 
 ## Reference
