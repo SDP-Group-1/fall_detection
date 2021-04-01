@@ -35,13 +35,38 @@ We segmented the readings' record into 5s window, the figure below is the smv cu
 ![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/fall_events.png)
 
 **mean_smv** is the mean value of SMVs during the window period.
+
 **std_smv** is the standard deviation of SMVs during the window period.
+
 **std_mless** is the standard deviation of the motionless stage. We determine the motionless stage by wether it is after the minimum value of SMV.
+
 **max_smv** is the maximum of SMV during the window period.
+
 **min_smv** is the minimum of SMV during the window period.
-**slope** is calculated by ![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/SL_formula.svg)
+
+**slope** is the slope of the straight line between the point that the SMV reaches its maximum and the point SMV reaches its minimum, and it can be calulated by：
+
+![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/SL_formula.svg)
+
+**duration** is the number of recording frames between the maximum SMV and minimum SMV.
 
 [model_selection](https://github.com/SDP-Group-1/fall_detection/blob/main/model_selection.ipynb): Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with different combinations of hyperparameters.
 
-[model_export](https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it.
+The exact 
+
+[model_export](https://github.com/SDP-Group-1/fall_detection/blob/main/model_export): Train the model that is going to be integrated with the oli App and export it as a pickle file.
+
+
 ## Dependencies
+
+[1] Casilari, E., Santoyo-Ramón, J., &amp; Cano-García, J. (2017). Analysis of public datasets for wearable fall detection systems. Sensors, 17(7), 1513. doi:10.3390/s17071513
+
+[2] Vavoulas, G., Chatzaki, C., Malliotakis, T., Pediaditis, M., &amp; Tsiknakis, M. (2016). The mobiact DATASET: Recognition of activities of daily living using smartphones. Proceedings of the International Conference on Information and Communication Technologies for Ageing Well and E-Health. doi:10.5220/0005792401430151
+
+[3] Sucerquia, A., López, J., &amp; Vargas-Bonilla, J. (2017). SisFall: A fall and MOVEMENT DATASET. Sensors, 17(12), 198. doi:10.3390/s17010198
+
+[4] Ge, Y., &amp; Xu, B. (2014). Detecting falls using accelerometers by adaptive thresholds in mobile devices. Journal of Computers, 9(7). doi:10.4304/jcp.9.7.1553-1559
+
+[5] He, J., Zhang, Z., Wang, X., &amp; Yang, S. (2019). A low power fall sensing technology based on fd-cnn. IEEE Sensors Journal, 19(13), 5110-5118. doi:10.1109/jsen.2019.2903482
+
+[6] Shi, Y., Shi, Y., &amp; Wang, X. (2012). Fall detection on mobile phones using features from a five-phase model. 2012 9th International Conference on Ubiquitous Intelligence and Computing and 9th International Conference on Autonomic and Trusted Computing. doi:10.1109/uic-atc.2012.100
