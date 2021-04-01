@@ -61,3 +61,4 @@ The model generator
 </table>
  ### [model_selection]: Compare the performance of RandomForestClassifier, LogisticRegression and rbf-SVC with tuned parameters.
  ### [real_model]: Train the model that is going to be integrated with the oli App.
+ ## Dependencies
