@@ -28,13 +28,17 @@ The other 7 features are respectively **mean_smv**, **std_smv**, **std_mless**, 
  <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/SMV_formula.svg"
 </p>
  
-The Signal Magnitude Vector (SMV for short) is calculated by the formula above, which is actually the norm of the composition of 3-axis acceleration.
+The Signal Magnitude Vector (SMV for short) is calculated by the formula above, which is actually the norm of the composition of 3-axes acceleration.
 
-<center>![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/3-axis.png)</center>
+<p align="center">
+ <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/3-axes."
+</p>
 
 We segmented the readings' record into 5s window, the figure below is the smv curve of the window in which a typical fall event happened. From the figure, we can see for a typical fall event there would be a peak form curve of the SMV, and after the peak the man/woman who has just experienced a fall would lie on the ground naturally and stay motionless.
 
-<center>![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/fall_event.png)</center>
+<p align="center">
+ <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/fall_event.png"
+</p>
 
 **mean_smv** is the mean value of SMVs during the window period.
 
@@ -48,7 +52,9 @@ We segmented the readings' record into 5s window, the figure below is the smv cu
 
 **slope** is the slope of the straight line between the point that the SMV reaches its maximum and the point SMV reaches its minimum, and it can be calulated by：
 
-<center>![image](https://github.com/SDP-Group-1/fall_detection/blob/main/image/SL_formula.svg)</center>
+<p align="center">
+ <img src = "https://github.com/SDP-Group-1/fall_detection/blob/main/image/SL_formula.svg"
+</p>
 
 **duration** is the number of recording frames between the maximum SMV and minimum SMV.
 
